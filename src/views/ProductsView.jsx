@@ -6,8 +6,9 @@ const ProductsView = () => {
         <>
             <Header />
 
-            <br />
-            <h1>Products</h1>
+            <div className="cont-searcher-filter">
+
+            </div>
         </>
     )
 }
