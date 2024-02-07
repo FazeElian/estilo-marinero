@@ -1,0 +1,30 @@
+.cont-products-list{
+    display: flex;
+    width: 70%;
+    height: auto;
+    align-items: center;
+    margin: 2.5rem auto auto;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* Resonsive 1440px */
+@media (max-width: 1440px){
+    .cont-products-list{
+        width: 75%;
+    }
+}
+
+/* Responsive 1024px */
+@media (max-width: 1024px){
+    .cont-products-list{
+        width: 90%;
+    }
+}
+
+/* Responsive 768px */
+@media (max-width: 768px){
+    .cont-products-list{
+        width: 87.5%;
+    }
+}
