@@ -12,6 +12,8 @@
 @media (max-width: 1440px){
     .cont-products-list{
         width: 75%;
+        gap: 2rem;
+        align-items: center;
     }
 }
 
@@ -22,9 +24,23 @@
     }
 }
 
+/* Responsive 887px */
+@media (max-width: 887px){
+    .cont-products-list{
+        justify-content: space-around;
+    }
+}
+
 /* Responsive 768px */
 @media (max-width: 768px){
     .cont-products-list{
         width: 87.5%;
+    }
+}
+
+/* Responsive 425px */
+@media (max-width: 425px){
+    .cont-products-list{
+        margin: 3rem auto auto;
     }
 }
