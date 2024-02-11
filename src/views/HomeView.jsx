@@ -18,6 +18,7 @@ import homeProductsList from "../assets/js/HomeProductsList";
 // Images - Icons
     // Search Icon
     import SearchIcon from "../assets/img/icons/Search.png";
+import { SeeAllButton } from "../components/SeeAllButton";
 
 const HomeView = () => {
     const [ searchProduct, setSearchProduct ] = useState("");
@@ -98,6 +99,12 @@ const HomeView = () => {
                     </div>
                 ))}
             </div>
+
+            {/* See All Products Button Component */}
+            <SeeAllButton
+                link="/products/"
+                text="Ver todos los productos" 
+            />
         </>
     )
 }
